@@ -4,7 +4,7 @@
 
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: False # set to False if you want education in main section instead of in sidebar
 
   # Profile information
@@ -60,7 +60,7 @@ sidebar:
 
 
 career-profile:
-  title: Career Profile
+  title: Profilo Professionale
   summary: |
     Summarise your career here lorem ipsum dolor sit amet, consectetuer
     adipiscing elit. You can [download this free resume/CV template here]().
@@ -139,14 +139,14 @@ education:
 #         - Bullet point
 
 certifications:
-  title: Certifications
+  title: Certificazioni
   list:
   - name: Fundamentals of Accelerated Computing with CUDA C/C++
     start: Giugno 2022
     end: 
     organization: NVIDIA
     credentialid: dc8d17103bf24050b3441a1da40632bc
-    credentialurl: https://learn.nvidia.com/certificates?id=dc8d17103bf24050b3441a1da40632bc
+    credentialurl: learn.nvidia.com/certificates?id=dc8d17103bf24050b3441a1da40632bc
     credentialname: NVIDIA Digital Badge
     details: |
       Il corso fornisce una panoramica delle tecniche di programmazione parallela utilizzando CUDA C/C++ per sfruttare la potenza delle GPU NVIDIA.
@@ -157,7 +157,7 @@ certifications:
     end:
     organization: Cambridge Assessment English
     credentialid: ADE813819 - 5081
-    credentialurl: https://www.cambridgeenglish.org/exams-and-tests/qualifications/advanced/
+    credentialurl: www.cambridgeenglish.org/exams-and-tests/qualifications/advanced/
     credentialname: C1 Advanced
     details: |
       Il certificato C1 Advanced attesta una competenza linguistica di livello avanzato in inglese, 
@@ -166,13 +166,16 @@ certifications:
       ed è riconosciuto a livello internazionale da università e datori di lavoro.
 
 projects:
-  title: Projects
+  title: Progetti
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Di seguito sono elencati alcuni progetti personali e accademici a cui ho lavorato.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: Tesi Magistrale, Hypernetwork-augmeted LDNets for PDE Reconstruction
+    link: "#"
+    tagline: "Allenare una rete neurale per la risoluzione di PDEs utilizzando hypernetworks per l'adattamento ai parametri della PDE stessa.
+        - Utilizzo di Flax e Jax per la costruzione e l'allenamento delle reti neurali e per l'efficienza computazionale con JIT compilation.
+        - Utilizzo di cluster HPC per l'allenamento delle reti neurali e per il tuning degli iperparametri in parallelo (Ray Tune, Optuna).
+        - Studio delle performance della rete su diversi tipi di PDEs (ADR, Burgers etc.) e su equazioni in regime caotico (Kuramoto-Sivashinsky)."
 
   - title: DevStudio
     link: "#"
@@ -190,62 +193,62 @@ projects:
     link: "#"
     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#   - title: The Art of Computer Programming
+#     link: "#"
+#     authors: Donald E. Knuth
+#     conference: Addison-Wesley, 1968
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#     link: "#"
+#     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+#   - title: A syntax directed compiler for Algol 60
+#     link: "#"
+#     authors: Edgar T. Irons
+#     conference: "Comm. ACM 4 (1961), 51–55"
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Yareli Perez
+#     email: perezyareli@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       Alan Doe is a super employee!
+#   - person: Lara Henderson
+#     email: larah@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       I would like to work with Alan Doe again!
 
-      He is a great employee!
+#       He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
@@ -269,5 +272,5 @@ skills:
   - name: Sketch & Photoshop
     level: 60%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
