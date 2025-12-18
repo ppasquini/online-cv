@@ -44,19 +44,19 @@ sidebar:
       level: Professionale (C1)
 
 
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
+  # interests:
+  #   title: Interests
+  #   info:
+  #   - item: Climbing
+  #     link:
 
 
-    - item: Snowboarding
-      link:
+  #   - item: Snowboarding
+  #     link:
 
 
-    - item: Cooking
-      link:
+  #   - item: Cooking
+  #     link:
 
 
 career-profile:
@@ -68,6 +68,7 @@ career-profile:
     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
     Donec quam felis, ultricies nec, pellentesque eu.
     Second paragraph if required.
+
 education:
   title: Educazione
   info:
@@ -75,24 +76,26 @@ education:
     university: Politecnico di Milano
     time: 2022 - 2025
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Il corso di studi mi ha fornito conoscenze avanzate per affrontare problemi complessi da un punto di vista computazionale, 
+      attraverso l'uso integrato di competenze matematiche, informatiche e ingegneristiche. 
+      Particolare attenzione è stata rivolta all'innovazione tecnologica e scientifica, 
+      alla scalabilità delle soluzioni e alla multidisciplinarità delle applicazioni.
+      In particolare, riguardo a:
+        - Metodi numerici avanzati per la simulazione scientifica e ingegneristica (modellazione differenziale e discreta, algebra lineare computazionale, tecniche di discretizzazione e risoluzione numerica di equazioni alle derivate parziali)
+        - Programmazione parallela e distribuita (performance computing, calcolo su GPU, cloud computing, calcolo distribuito, librerie e framework per il calcolo parallelo come MPI, OpenMP, CUDA)
+        - Architetture più moderne (processori vettoriali, pipeline, sistemi eterogenei con acceleratori tensoriali)
+        - Quantum computing e relativi algoritmi (algoritmi di Shor e Grover, simulazione di sistemi quantistici)
+        - Deep learning e intelligenza artificiale (gestione di dati complessi e non strutturati, analisi statistica, modellazione predittiva, estrazione di conoscenza utile da grandi moli di dati)
   - degree: Laurea Triennale in Ingegneria Matematica
-    university: Bristol University
+    university: Politecnico di Milano
     time: 2019 - 2022
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Il corso di studi mi ha fornito solide basi matematiche e competenze informatiche per affrontare problemi ingegneristici complessi.
+      Oltre alle basi tipiche dei corsi di ingegneria in Fisica, Chimica, Economia e informatica, il corso di studi si è focalizzato su:
+        - Analisi matematica avanzata (calcolo differenziale e integrale, equazioni differenziali ordinarie e parziali, analisi funzionale)
+        - Algebra lineare e geometria (spazi vettoriali, matrici, trasformazioni lineari, geometria analitica)
+        - Metodi numerici (metodi di approssimazione, interpolazione, integrazione numerica, risoluzione numerica di equazioni)
+        - Statistica e probabilità (teoria della probabilità, statistica descrittiva, inferenza statistica, modelli probabilistici)
 
 # experiences:
 #   title: Experiences
@@ -138,43 +141,29 @@ education:
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+  - name: Fundamentals of Accelerated Computing with CUDA C/C++
+    start: Giugno 2022
+    end: 
+    organization: NVIDIA
+    credentialid: dc8d17103bf24050b3441a1da40632bc
+    credentialurl: https://learn.nvidia.com/certificates?id=dc8d17103bf24050b3441a1da40632bc
+    credentialname: NVIDIA Digital Badge
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+      Il corso fornisce una panoramica delle tecniche di programmazione parallela utilizzando CUDA C/C++ per sfruttare la potenza delle GPU NVIDIA.
+      Copre concetti fondamentali come l'architettura delle GPU, la gestione della memoria, la scrittura di kernel paralleli e l'ottimizzazione delle prestazioni.
+      
+  - name: Cambridge English Qualifications, C1 Advanced
+    start: 2018
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+    organization: Cambridge Assessment English
+    credentialid: ADE813819 - 5081
+    credentialurl: https://www.cambridgeenglish.org/exams-and-tests/qualifications/advanced/
+    credentialname: C1 Advanced
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      Il certificato C1 Advanced attesta una competenza linguistica di livello avanzato in inglese, 
+      dimostrando la capacità di comunicare efficacemente in contesti accademici e professionali.
+      Copre abilità di lettura, scrittura, ascolto e conversazione, 
+      ed è riconosciuto a livello internazionale da università e datori di lavoro.
 
 projects:
   title: Projects
