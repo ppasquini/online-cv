@@ -172,27 +172,19 @@ projects:
   assignments:
   - title: Tesi Magistrale, Hypernetwork-augmeted LDNets for PDE Reconstruction
     link: "#"
-    tagline: |
-    Allenare una rete neurale per la risoluzione di PDEs utilizzando hypernetworks per l'adattamento ai parametri della PDE stessa.
-        - Utilizzo di Flax e Jax per la costruzione e l'allenamento delle reti neurali e per l'efficienza computazionale con JIT compilation.
-        - Utilizzo di cluster HPC per l'allenamento delle reti neurali e per il tuning degli iperparametri in parallelo (Ray Tune, Optuna).
-        - Studio delle performance della rete su diversi tipi di PDEs (ADR, Burgers etc.) e su equazioni in regime caotico (Kuramoto-Sivashinsky).
+    tagline: "Allenare una rete neurale per la risoluzione di PDEs utilizzando hypernetworks per l'adattamento ai parametri della PDE stessa."
 
-  - title: DevStudio
+  - title: Studio aerodinamica e struttura ala anteriore di macchina Formula Student
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "Studio dell'aerodinamica di una ala anteriore di una macchina da Formula Student e della deformazione strutturale sotto carico aerodinamico."
 
-  - title: Tempo
+  - title: Parallelizzazione risoluzione Equazione del Calore
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: "Implementazione di un solver parallelo per l'equazione del calore in 3D utilizzando il metodo delle differenze finite."
 
-  - title: Atom
+  - title: Implementazione di funzioni goniometriche per il progetto ”Taffo” del PoliMi
     link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    tagline: "Sviluppo di librerie in C++ per il calcolo efficiente di funzioni goniometriche su architetture a bassa potenza."
 
 # oss:
 #   title: OSS Contributions
@@ -252,26 +244,32 @@ projects:
 #       He is a great employee!
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills #&amp; Proficiency
 
   toolset:
-  - name: Python & Django
+  - name: Python
     level: 98%
 
-  - name: Javascript & jQuery
+  - name: C/C++
     level: 98%
 
-  - name: Angular
-    level: 98%
+  - name: MPI
+    level: 90%
+  
+  - name: Git
+    level: 75%
 
-  - name: HTML5 & CSS
-    level: 95%
+  - name: Matlab
+    level: 70%
 
-  - name: Ruby on Rails
-    level: 85%
+  - name: Bash Scripting
+    level: 65%
 
-  - name: Sketch & Photoshop
+  - name: CUDA
     level: 60%
+
+  - name: Fortran
+    level: 40%
 
 # footer: >
 #   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
