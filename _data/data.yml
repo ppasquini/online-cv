@@ -172,10 +172,11 @@ projects:
   assignments:
   - title: Tesi Magistrale, Hypernetwork-augmeted LDNets for PDE Reconstruction
     link: "#"
-    tagline: "Allenare una rete neurale per la risoluzione di PDEs utilizzando hypernetworks per l'adattamento ai parametri della PDE stessa.
+    tagline: |
+    Allenare una rete neurale per la risoluzione di PDEs utilizzando hypernetworks per l'adattamento ai parametri della PDE stessa.
         - Utilizzo di Flax e Jax per la costruzione e l'allenamento delle reti neurali e per l'efficienza computazionale con JIT compilation.
         - Utilizzo di cluster HPC per l'allenamento delle reti neurali e per il tuning degli iperparametri in parallelo (Ray Tune, Optuna).
-        - Studio delle performance della rete su diversi tipi di PDEs (ADR, Burgers etc.) e su equazioni in regime caotico (Kuramoto-Sivashinsky)."
+        - Studio delle performance della rete su diversi tipi di PDEs (ADR, Burgers etc.) e su equazioni in regime caotico (Kuramoto-Sivashinsky).
 
   - title: DevStudio
     link: "#"
