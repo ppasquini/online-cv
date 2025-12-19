@@ -172,7 +172,11 @@ projects:
   assignments:
   - title: Tesi Magistrale, Hypernetwork-augmeted LDNets for PDE Reconstruction
     link: "#"
-    tagline: "Allenare una rete neurale per la risoluzione di PDEs utilizzando hypernetworks per l'adattamento ai parametri della PDE stessa."
+    tagline: |
+    Allenare una rete neurale per la risoluzione di PDEs utilizzando hypernetworks per l'adattamento ai parametri della PDE stessa.
+      - Utilizzo di Flax e Jax per la costruzione e l'allenamento delle reti neurali e per l'efficienza computazionale con JIT compilation.
+      - Utilizzo di cluster HPC per l'allenamento delle reti neurali e per il tuning degli iperparametri in parallelo (Ray Tune, Optuna).
+      - Studio delle performance della rete su diversi tipi di PDEs (ADR, Burgers etc.) e su equazioni in regime caotico (Kuramoto-Sivashinsky).
 
   - title: Studio aerodinamica e struttura ala anteriore di macchina Formula Student
     link: "#"
@@ -254,10 +258,22 @@ skills:
     level: 98%
 
   - name: MPI
+    level: 95%
+  
+  - name: OpenMP
     level: 90%
   
   - name: Git
     level: 75%
+
+  - name: SQL
+    level: 75%
+  
+  - name: Neo4j
+    level: 73%
+
+  - name: MongoDB
+    level: 72%
 
   - name: Matlab
     level: 70%
